@@ -8,3 +8,33 @@ html,body {
     height: 100%;
     width: 100%;
 }
+
+#counter {
+    display: block;
+    font-size: 8em;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: rgb(153, 110, 44);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;   
+    font-size: 1.53em; 
+    color: white;
+    background-color: rgb(27, 117, 87);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.button:hover {
+    background-color: rgb(49, 128, 128);
+}
+
+
+
